@@ -30,7 +30,7 @@ real, parameter :: epsilon = 1.0E-6
   enddo
   close(11)
   
-  open(unit=11, file='coseno.dat')
+  open(unit=11, file='cos.dat')
   
   do i = 1, npts+1, 1
      

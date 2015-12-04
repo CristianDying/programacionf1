@@ -23,9 +23,18 @@ program taylorprogram
         x_1=float(i)*h
         x_2=float(i+1)*h
        suma =SerieTaylor(F(x_0,icaso), F(x_1,icaso), F(x_2,icaso), h)
-        write(*,*) i, suma, F(x_1,icaso), (suma-F(x_1,icaso))
-     end do
+       write(*,*) i, suma, F(x_1,icaso), (suma-F(x_1,icaso))
+      
+          
+       open(unit=12, file='Error.dat')
+       write(12,*)i, suma-F(x_1,icaso)
     
+    
+    
+
+      
+     end do
+    close(12)
 
    END PROGRAM taylorprogram
    
