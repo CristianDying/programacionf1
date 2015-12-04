@@ -1,0 +1,19 @@
+!Este programa calcula la función sin(x) en el intervalo [0, 2 pi]
+prog sinf
+ implicit none
+
+ integer :: i, npts
+ real :: x, f_x, x00, x01, x02, xm1, xm2, fT1, fT2, fT3, dx
+ real, parameter :: pi = 4.0 * atan (1.0)
+
+ npts = 10
+ dx = (2.0 * pi) /float(npts)
+ write(*,*) 'dx= ', dx
+ x = 0.0
+ do i = 1, npts, 1
+    x= dx * float(i)
+    f_x = sin(x)
+   print(*,*) i, x, f_x
+ enddo
+
+end program sinf 

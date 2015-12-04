@@ -1,0 +1,61 @@
+﻿Resumen de comandos en emacs:
+
+ctrl+y:  
+pegar
+ 
+ctrl+a:
+irse a inicio del renglon
+
+ctrl+k:  
+cortar lo que esté enfrente
+
+ctrl+e:  
+irse al final
+
+ctrl+d:     
+borra lo que esta "seleccionado"
+
+esc + d:    
+borra palabra  despues del cursor 
+
+esc + backspace:      
+borra palabra sobre el cursor hacia atrás
+
+ctrl+k:    
+guarda todo en memoria lo que está a la derecha del cursor
+
+ctrl+y:    
+regresa lo que está en la memoria
+
+asc + barra espaciadora:    
+marcar un renglón
+
+crtl + barra espaciadora:   
+marcar un renglón (desde inicio del cursor hasta el final de la posición deseada)
+
+ctrl+w:   
+limpio un parrafo en una memoria
+
+ctrl+y:   
+pego 
+
+ctrl+g:   
+aborta el último comando
+
+ctrl+x ctrl+s:      
+guardar el archivo
+
+ctrl+x ctrl+c:    
+salir de emacs
+
+ctrl+x ctrl+w:     
+escribir a memoria
+
+ctrl+v:     
+moverse una página hacia abajo
+
+esc + v:      
+moverse una pagina atrás
+
+ctrl+s:     
+buscar hacia enfrente
